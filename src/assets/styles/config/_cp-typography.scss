@@ -1,0 +1,90 @@
+:root {
+
+  --font-serif: #{$font-serif};
+  --font-monospace: #{$font-monospace};
+  --font-special-chars: #{$font-special-chars};
+  --font-futuristic: #{$font-futuristic};
+  --font-display: #{$font-display};
+
+  --browser-font-size: #{$browser-font-size};
+  --body-font-size: #{$body-font-size};
+  --std-line-height: #{$std-line-height};
+
+  --h1-font-size: #{$h1-font-size};
+  --h2-font-size: #{$h2-font-size};
+  --h3-font-size: #{$h3-font-size};
+  --h4-font-size: #{$h4-font-size};
+  --h5-font-size: #{$h5-font-size};
+  --h6-font-size: #{$h6-font-size};
+  --text-big-font-size: #{$text-big-font-size};
+  --text-small-font-size: #{$text-small-font-size};
+  --footer-font-size: #{$footer-font-size};
+
+  --browser-font-size-px: #{$browser-font-size-px};
+  --body-font-size-px: #{$body-font-size-px};
+  --std-line-height-px: #{$std-line-height-px};
+
+  --h1-font-size-px: #{$h1-font-size-px};
+  --h2-font-size-px: #{$h2-font-size-px};
+  --h3-font-size-px: #{$h3-font-size-px};
+  --h4-font-size-px: #{$h4-font-size-px};
+  --h5-font-size-px: #{$h5-font-size-px};
+  --h6-font-size-px: #{$h6-font-size-px};
+  --text-big-font-size-px: #{$text-big-font-size-px};
+  --text-small-font-size-px: #{$text-small-font-size-px};
+  --footer-font-size-px: #{$footer-font-size-px};
+
+  /* ----- Line height without unit ----- */
+
+  --h1-line-height: #{$h1-line-height};
+  --h2-line-height: #{$h2-line-height};
+  --h3-line-height: #{$h3-line-height};
+  --h4-line-height: #{$h4-line-height};
+  --h5-line-height: #{$h5-line-height};
+  --h6-line-height: #{$h6-line-height};
+  --text-big-line-height: #{$text-big-line-height};
+  --text-small-line-height: #{$text-small-line-height};
+
+  /* ----- scale factors (don't change - unless you know what you do) ----- */
+
+  --text-font-scale: #{$text-font-scale};
+  --h1-font-scale: #{$h1-font-scale};
+  --h2-font-scale: #{$h2-font-scale};
+  --h3-font-scale: #{$h3-font-scale};
+  --h4-font-scale: #{$h4-font-scale};
+  --h5-font-scale: #{$h5-font-scale};
+  --h6-font-scale: #{$h6-font-scale};
+  --text-big-font-scale: #{$text-big-font-scale};
+  --text-small-font-scale: #{$text-small-font-scale};
+  --footer-font-scale: #{$footer-font-scale};
+
+  /* ----- Font size calculations ----- */
+
+  --body-font-size-em: #{$body-font-size-em};
+  --body-font-size-pc: #{$body-font-size-pc};
+
+  --h1-font-size-pc: #{$h1-font-size-pc};
+  --h2-font-size-pc: #{$h2-font-size-pc};
+  --h3-font-size-pc: #{$h3-font-size-pc};
+  --h4-font-size-pc: #{$h4-font-size-pc};
+  --h5-font-size-pc: #{$h5-font-size-pc};
+  --h6-font-size-pc: #{$h6-font-size-pc};
+
+  --text-big-font-size-pc: #{$text-big-font-size-pc};
+  --text-small-font-size-pc: #{$text-small-font-size-pc};
+  --footer-font-size-pc: #{$footer-font-size-pc};
+
+  /* ----- line height (without unit) ----- */
+
+  --std-line-height-scale: #{$std-line-height-scale};
+
+  --h1-line-height-scale: #{$h1-line-height-scale};
+  --h2-line-height-scale: #{$h2-line-height-scale};
+  --h3-line-height-scale: #{$h3-line-height-scale};
+  --h4-line-height-scale: #{$h4-line-height-scale};
+  --h5-line-height-scale: #{$h5-line-height-scale};
+  --h6-line-height-scale: #{$h6-line-height-scale};
+
+  --text-big-line-height-scale: #{$text-big-line-height-scale};
+  --text-small-line-height-scale: #{$text-small-line-height-scale};
+}

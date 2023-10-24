@@ -1,0 +1,124 @@
+@use 'sass:math';
+
+$body-font-size: 16 !default;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 1920px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+  xxxl: 1600px
+);
+
+/* --- Spacings (usually used for vertical margins between content elements) --- */
+
+$spacing-10: 6;
+$spacing-20: 12;
+$spacing-30: 24;
+$spacing-40: 36;
+$spacing-50: 48;
+$spacing-60: 64;
+$spacing-70: 96;
+$spacing-80: 128;
+$spacing-90: 164;
+$spacing-100: 256;
+
+$spacing-10-px: $spacing-10 * 1px;
+$spacing-20-px: $spacing-20 * 1px;
+$spacing-30-px: $spacing-30 * 1px;
+$spacing-40-px: $spacing-40 * 1px;
+$spacing-50-px: $spacing-50 * 1px;
+$spacing-60-px: $spacing-60 * 1px;
+$spacing-70-px: $spacing-70 * 1px;
+$spacing-80-px: $spacing-80 * 1px;
+$spacing-90-px: $spacing-90 * 1px;
+$spacing-100-px: $spacing-100 * 1px;
+
+$spacing-xsmall: $spacing-10;
+$spacing-xsmall-px: $spacing-10-px;
+$spacing-xsmall-em: math.div($spacing-xsmall, $body-font-size) * 1em;
+$spacing-xsmall-desktop: $spacing-20;
+$spacing-xsmall-desktop-px: $spacing-20-px;
+$spacing-xsmall-desktop-em: math.div($spacing-xsmall-desktop, $body-font-size) * 1em;
+
+$spacing-small: $spacing-20;
+$spacing-small-px: $spacing-20-px;
+$spacing-small-em: math.div($spacing-small, $body-font-size) * 1em;
+$spacing-small-desktop: $spacing-30;
+$spacing-small-desktop-px: $spacing-30-px;
+$spacing-small-desktop-em: math.div($spacing-small-desktop, $body-font-size) * 1em;
+
+$spacing-medium: $spacing-30;
+$spacing-medium-px: $spacing-30-px;
+$spacing-medium-em: math.div($spacing-medium, $body-font-size) * 1em;
+$spacing-medium-desktop: $spacing-40;
+$spacing-medium-desktop-px: $spacing-40-px;
+$spacing-medium-desktop-em: math.div($spacing-medium-desktop, $body-font-size) * 1em;
+
+$spacing-large: $spacing-40;
+$spacing-large-px: $spacing-40-px;
+$spacing-large-em: math.div($spacing-large, $body-font-size) * 1em;
+$spacing-large-desktop: $spacing-50;
+$spacing-large-desktop-px: $spacing-50-px;
+$spacing-large-desktop-em: math.div($spacing-large-desktop, $body-font-size) * 1em;
+
+/* --- Gutters (usually used for paddings and gaps) --- */
+
+$gutter-10: 5;
+$gutter-20: 10;
+$gutter-30: 15;
+$gutter-40: 20;
+$gutter-50: 25;
+$gutter-60: 30;
+$gutter-70: 40;
+$gutter-80: 50;
+$gutter-90: 60;
+$gutter-100: 80;
+
+$gutter-10-px: $gutter-10 * 1px;
+$gutter-20-px: $gutter-20 * 1px;
+$gutter-30-px: $gutter-30 * 1px;
+$gutter-40-px: $gutter-40 * 1px;
+$gutter-50-px: $gutter-50 * 1px;
+$gutter-60-px: $gutter-60 * 1px;
+$gutter-70-px: $gutter-70 * 1px;
+$gutter-80-px: $gutter-80 * 1px;
+$gutter-90-px: $gutter-90 * 1px;
+$gutter-100-px: $gutter-100 * 1px;
+
+$gutter-small: $gutter-20;
+$gutter-small-px: $gutter-20-px;
+$gutter-small-em: math.div($gutter-small, $body-font-size) * 1em;
+$gutter-medium: $gutter-40;
+$gutter-medium-px: $gutter-40-px;
+$gutter-medium-em: math.div($gutter-medium, $body-font-size) * 1em;
+$gutter-large: $gutter-60;
+$gutter-large-px: $gutter-60-px;
+$gutter-large-em: math.div($gutter-large, $body-font-size) * 1em;
+
+$box-padding-small: math.div($gutter-small, 2);
+$box-padding-small-px: math.div($gutter-small-px, 2);
+$box-padding-small-em: math.div($box-padding-small, $body-font-size) * 1em;
+$box-padding-medium: math.div($gutter-medium, 2);
+$box-padding-medium-px: math.div($gutter-medium-px, 2);
+$box-padding-medium-em: math.div($box-padding-medium, $body-font-size) * 1em;
+$box-padding-large: math.div($gutter-large, 2);
+$box-padding-large-px: math.div($gutter-large-px, 2);
+$box-padding-large-em: math.div($box-padding-large, $body-font-size) * 1em;
+
+/** --- Border & Border Radius --- */
+
+$border-radius-small: 2px;
+$border-radius-medium: 3px;
+$border-radius-large: 4px;

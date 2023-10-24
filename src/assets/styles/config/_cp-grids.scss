@@ -1,0 +1,104 @@
+:root {
+
+  /* --- Spacings (usually used for vertical margins between content elements) --- */
+
+  --spacing-10: #{$spacing-10};
+  --spacing-20: #{$spacing-20};
+  --spacing-30: #{$spacing-30};
+  --spacing-40: #{$spacing-40};
+  --spacing-50: #{$spacing-50};
+  --spacing-60: #{$spacing-60};
+  --spacing-70: #{$spacing-70};
+  --spacing-80: #{$spacing-80};
+  --spacing-90: #{$spacing-90};
+  --spacing-100: #{$spacing-100};
+
+  --spacing-10-px: #{$spacing-10-px};
+  --spacing-20-px: #{$spacing-20-px};
+  --spacing-30-px: #{$spacing-30-px};
+  --spacing-40-px: #{$spacing-40-px};
+  --spacing-50-px: #{$spacing-50-px};
+  --spacing-60-px: #{$spacing-60-px};
+  --spacing-70-px: #{$spacing-70-px};
+  --spacing-80-px: #{$spacing-80-px};
+  --spacing-90-px: #{$spacing-90-px};
+  --spacing-100-px: #{$spacing-100-px};
+
+  --spacing-xsmall: #{$spacing-xsmall};
+  --spacing-xsmall-px: #{$spacing-xsmall-px};
+  --spacing-xsmall-em: #{$spacing-xsmall-em};
+  --spacing-xsmall-desktop: #{$spacing-xsmall-desktop};
+  --spacing-xsmall-desktop-px: #{$spacing-xsmall-desktop-px};
+  --spacing-xsmall-desktop-em: #{$spacing-xsmall-desktop-em};
+
+  --spacing-small: #{$spacing-small};
+  --spacing-small-px: #{$spacing-small-px};
+  --spacing-small-em: #{$spacing-small-em};
+  --spacing-small-desktop: #{$spacing-small-desktop};
+  --spacing-small-desktop-px: #{$spacing-small-desktop-px};
+  --spacing-small-desktop-em: #{$spacing-small-desktop-em};
+
+  --spacing-medium: #{$spacing-medium};
+  --spacing-medium-px: #{$spacing-medium-px};
+  --spacing-medium-em: #{$spacing-medium-em};
+  --spacing-medium-desktop: #{$spacing-medium-desktop};
+  --spacing-medium-desktop-px: #{$spacing-medium-desktop-px};
+  --spacing-medium-desktop-em: #{$spacing-medium-desktop-em};
+
+  --spacing-large: #{$spacing-large};
+  --spacing-large-px: #{$spacing-large-px};
+  --spacing-large-em: #{$spacing-large-em};
+  --spacing-large-desktop: #{$spacing-large-desktop};
+  --spacing-large-desktop-px: #{$spacing-large-desktop-px};
+  --spacing-large-desktop-em: #{$spacing-large-desktop-em};
+
+  /* --- Gutters (usually used for paddings and gaps) --- */
+
+  --gutter-10: #{$gutter-10};
+  --gutter-20: #{$gutter-20};
+  --gutter-30: #{$gutter-30};
+  --gutter-40: #{$gutter-40};
+  --gutter-50: #{$gutter-50};
+  --gutter-60: #{$gutter-60};
+  --gutter-70: #{$gutter-70};
+  --gutter-80: #{$gutter-80};
+  --gutter-90: #{$gutter-90};
+  --gutter-100: #{$gutter-100};
+
+  --gutter-10-px: #{$gutter-10-px};
+  --gutter-20-px: #{$gutter-20-px};
+  --gutter-30-px: #{$gutter-30-px};
+  --gutter-40-px: #{$gutter-40-px};
+  --gutter-50-px: #{$gutter-50-px};
+  --gutter-60-px: #{$gutter-60-px};
+  --gutter-70-px: #{$gutter-70-px};
+  --gutter-80-px: #{$gutter-80-px};
+  --gutter-90-px: #{$gutter-90-px};
+  --gutter-100-px: #{$gutter-100-px};
+
+  --gutter-small: #{$gutter-small};
+  --gutter-small-px: #{$gutter-small-px};
+  --gutter-small-em: #{$gutter-small-em};
+  --gutter-medium: #{$gutter-medium};
+  --gutter-medium-px: #{$gutter-medium-px};
+  --gutter-medium-em: #{$gutter-medium-em};
+  --gutter-large: #{$gutter-large};
+  --gutter-large-px: #{$gutter-large-px};
+  --gutter-large-em: #{$gutter-large-em};
+
+  --box-padding-small: #{$box-padding-small};
+  --box-padding-small-px: #{$box-padding-small-px};
+  --box-padding-small-em: #{$box-padding-small-em};
+  --box-padding-medium: #{$box-padding-medium};
+  --box-padding-medium-px: #{$box-padding-medium-px};
+  --box-padding-medium-em: #{$box-padding-medium-em};
+  --box-padding-large: #{$box-padding-large};
+  --box-padding-large-px: #{$box-padding-large-px};
+  --box-padding-large-em: #{$box-padding-large-em};
+
+  /** --- Border & Border Radius --- */
+
+  --border-radius-small: #{$border-radius-small};
+  --border-radius-medium: #{$border-radius-medium};
+  --border-radius-large: #{$border-radius-large};
+}

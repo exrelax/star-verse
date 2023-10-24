@@ -1,0 +1,221 @@
+:root {
+  /* Colors by color name */
+
+  --color-white: #{$color-white};
+  --color-black: #{$color-black};
+  --color-white-rgb: #{$color-white-rgb};
+  --color-black-rgb: #{$color-black-rgb};
+
+  --color-white-90-rgb: #{$color-white-90-rgb};
+  --color-black-90-rgb: #{$color-black-90-rgb};
+
+  --color-gray-100: #{$color-gray-100};
+  --color-gray-200: #{$color-gray-200};
+  --color-gray-300: #{$color-gray-300};
+  --color-gray-400: #{$color-gray-400};
+  --color-gray-500: #{$color-gray-500};
+  --color-gray-600: #{$color-gray-600};
+  --color-gray-700: #{$color-gray-700};
+  --color-gray-800: #{$color-gray-800};
+  --color-gray-850: #{$color-gray-850};
+
+  --color-white: #{$color-white};
+  --color-black: #{$color-black};
+  --color-white-rgb: #{$color-white-rgb};
+  --color-black-rgb: #{$color-black-rgb};
+
+  --color-gray-100: #{$color-gray-100};
+  --color-gray-200: #{$color-gray-200};
+  --color-gray-300: #{$color-gray-300};
+  --color-gray-400: #{$color-gray-400};
+  --color-gray-500: #{$color-gray-500};
+  --color-gray-600: #{$color-gray-600};
+  --color-gray-700: #{$color-gray-700};
+  --color-gray-800: #{$color-gray-800};
+  --color-gray-850: #{$color-gray-850};
+  --color-gray-900: #{$color-gray-900};
+  --color-gray-1000: #{$color-gray-1000};
+  --color-gray-100-rgb: #{$color-gray-100-rgb};
+  --color-gray-200-rgb: #{$color-gray-200-rgb};
+  --color-gray-300-rgb: #{$color-gray-300-rgb};
+  --color-gray-400-rgb: #{$color-gray-400-rgb};
+  --color-gray-500-rgb: #{$color-gray-500-rgb};
+  --color-gray-600-rgb: #{$color-gray-600-rgb};
+  --color-gray-700-rgb: #{$color-gray-700-rgb};
+  --color-gray-800-rgb: #{$color-gray-800-rgb};
+  --color-gray-850-rgb: #{$color-gray-850-rgb};
+  --color-gray-900-rgb: #{$color-gray-900-rgb};
+  --color-gray-1000-rgb: #{$color-gray-1000-rgb};
+
+  /* RSI colors */
+
+  --color-rsi-blue-300: #{$color-rsi-blue-300};
+  --color-rsi-aqua-100: #{$color-rsi-aqua-100};
+  --color-rsi-space-blue-100: #{$color-rsi-space-blue-100};
+  --color-rsi-space-blue-200: #{$color-rsi-space-blue-200};
+  --color-rsi-space-blue-300: #{$color-rsi-space-blue-300};
+  --color-rsi-space-blue-400: #{$color-rsi-space-blue-400};
+  --color-rsi-space-blue-500: #{$color-rsi-space-blue-500};
+  --color-rsi-space-blue-600: #{$color-rsi-space-blue-600};
+  --color-rsi-space-blue-700: #{$color-rsi-space-blue-700};
+  --color-rsi-space-blue-800: #{$color-rsi-space-blue-800};
+  --color-rsi-space-blue-900: #{$color-rsi-space-blue-900};
+  --color-rsi-space-blue-alternative-100: #{$color-rsi-space-blue-alternative-100};
+  --color-rsi-monochrome-50: #{$color-rsi-monochrome-50};
+  --color-rsi-monochrome-100: #{$color-rsi-monochrome-100};
+  --color-rsi-monochrome-300: #{$color-rsi-monochrome-300};
+  --color-rsi-monochrome-400: #{$color-rsi-monochrome-400};
+  --color-rsi-monochrome-800: #{$color-rsi-monochrome-800};
+  --color-rsi-monochrome-900: #{$color-rsi-monochrome-900};
+  --color-rsi-monochrome-alternative-100: #{$color-rsi-monochrome-alternative-100};
+  --color-rsi-monochrome-alternative-400: #{$color-rsi-monochrome-alternative-400};
+  --color-rsi-red-light: #{$color-rsi-red-light};
+  --color-rsi-orange-dark: #{$color-rsi-orange-dark};
+  --color-rsi-orange-light: #{$color-rsi-orange-light};
+  --color-rsi-yellow: #{$color-rsi-yellow};
+  --color-rsi-green: #{$color-rsi-green};
+  --color-rsi-purple: #{$color-rsi-purple};
+
+  --color-rsi-blue-300-rgb: #{$color-rsi-blue-300-rgb};
+  --color-rsi-aqua-100-rgb: #{$color-rsi-aqua-100-rgb};
+  --color-rsi-space-blue-alternative-100-rgb: #{$color-rsi-space-blue-alternative-100-rgb};
+  --color-rsi-space-blue-100-rgb: #{$color-rsi-space-blue-100-rgb};
+  --color-rsi-space-blue-200-rgb: #{$color-rsi-space-blue-200-rgb};
+  --color-rsi-space-blue-300-rgb: #{$color-rsi-space-blue-300-rgb};
+  --color-rsi-space-blue-400-rgb: #{$color-rsi-space-blue-400-rgb};
+  --color-rsi-space-blue-500-rgb: #{$color-rsi-space-blue-500-rgb};
+  --color-rsi-space-blue-600-rgb: #{$color-rsi-space-blue-600-rgb};
+  --color-rsi-space-blue-700-rgb: #{$color-rsi-space-blue-700-rgb};
+  --color-rsi-space-blue-800-rgb: #{$color-rsi-space-blue-800-rgb};
+  --color-rsi-space-blue-900-rgb: #{$color-rsi-space-blue-900-rgb};
+  --color-rsi-monochrome-50-rgb: #{$color-rsi-monochrome-50-rgb};
+  --color-rsi-monochrome-100-rgb: #{$color-rsi-monochrome-100-rgb};
+  --color-rsi-monochrome-300-rgb: #{$color-rsi-monochrome-300-rgb};
+  --color-rsi-monochrome-400-rgb: #{$color-rsi-monochrome-400-rgb};
+  --color-rsi-monochrome-800-rgb: #{$color-rsi-monochrome-800-rgb};
+  --color-rsi-monochrome-900-rgb: #{$color-rsi-monochrome-900-rgb};
+  --color-rsi-monochrome-alternative-400-rgb: #{$color-rsi-monochrome-alternative-400-rgb};
+  --color-rsi-monochrome-alternative-100-rgb: #{$color-rsi-monochrome-alternative-100-rgb};
+  --color-rsi-red-light-rgb: #{$color-rsi-red-light-rgb};
+  --color-rsi-orange-dark-rgb: #{$color-rsi-orange-dark-rgb};
+  --color-rsi-orange-light-rgb: #{$color-rsi-orange-light-rgb};
+  --color-rsi-yellow-rgb: #{$color-rsi-yellow-rgb};
+  --color-rsi-green-rgb: #{$color-rsi-green-rgb};
+  --color-rsi-purple-rgb: #{$color-rsi-purple-rgb};
+
+  /* Star Citizen colors */
+
+  --color-star-citizen-asop-yellow-light: #{$color-star-citizen-asop-yellow-light};
+  --color-star-citizen-asop-yellow-medium: #{$color-star-citizen-asop-yellow-medium};
+
+  /* Colors by function */
+
+  --color-primary: #{$color-primary};
+  --color-primary-alternative: #{$color-primary-alternative};
+  --color-secondary: #{$color-secondary};
+  --color-secondary-alternative: #{$color-secondary-alternative};
+  --color-accent: #{$color-accent};
+
+  --color-warning: #{$color-warning};
+  --color-success: #{$color-success};
+
+  --color-dark: #{$color-dark};
+  --color-darker: #{$color-darker};
+  --color-light: #{$color-light};
+  --color-lighter: #{$color-lighter};
+
+  --color-text-dark: #{$color-text-dark};
+  --color-text-light: #{$color-text-light};
+  --color-gray-1000: #{$color-gray-1000};
+  --color-gray-100-rgb: #{$color-gray-100-rgb};
+  --color-gray-200-rgb: #{$color-gray-200-rgb};
+  --color-gray-300-rgb: #{$color-gray-300-rgb};
+  --color-gray-400-rgb: #{$color-gray-400-rgb};
+  --color-gray-500-rgb: #{$color-gray-500-rgb};
+  --color-gray-600-rgb: #{$color-gray-600-rgb};
+  --color-gray-700-rgb: #{$color-gray-700-rgb};
+  --color-gray-800-rgb: #{$color-gray-800-rgb};
+  --color-gray-850-rgb: #{$color-gray-850-rgb};
+  --color-gray-900-rgb: #{$color-gray-900-rgb};
+  --color-gray-1000-rgb: #{$color-gray-1000-rgb};
+
+  /* RSI colors */
+
+  --color-rsi-blue-300: #{$color-rsi-blue-300};
+  --color-rsi-aqua-100: #{$color-rsi-aqua-100};
+  --color-rsi-space-blue-100: #{$color-rsi-space-blue-100};
+  --color-rsi-space-blue-200: #{$color-rsi-space-blue-200};
+  --color-rsi-space-blue-300: #{$color-rsi-space-blue-300};
+  --color-rsi-space-blue-400: #{$color-rsi-space-blue-400};
+  --color-rsi-space-blue-500: #{$color-rsi-space-blue-500};
+  --color-rsi-space-blue-600: #{$color-rsi-space-blue-600};
+  --color-rsi-space-blue-700: #{$color-rsi-space-blue-700};
+  --color-rsi-space-blue-800: #{$color-rsi-space-blue-800};
+  --color-rsi-space-blue-900: #{$color-rsi-space-blue-900};
+  --color-rsi-space-blue-alternative-100: #{$color-rsi-space-blue-alternative-100};
+  --color-rsi-monochrome-50: #{$color-rsi-monochrome-50};
+  --color-rsi-monochrome-100: #{$color-rsi-monochrome-100};
+  --color-rsi-monochrome-300: #{$color-rsi-monochrome-300};
+  --color-rsi-monochrome-400: #{$color-rsi-monochrome-400};
+  --color-rsi-monochrome-800: #{$color-rsi-monochrome-800};
+  --color-rsi-monochrome-900: #{$color-rsi-monochrome-900};
+  --color-rsi-monochrome-alternative-100: #{$color-rsi-monochrome-alternative-100};
+  --color-rsi-monochrome-alternative-400: #{$color-rsi-monochrome-alternative-400};
+  --color-rsi-red-light: #{$color-rsi-red-light};
+  --color-rsi-orange-dark: #{$color-rsi-orange-dark};
+  --color-rsi-orange-light: #{$color-rsi-orange-light};
+  --color-rsi-yellow: #{$color-rsi-yellow};
+  --color-rsi-green: #{$color-rsi-green};
+  --color-rsi-purple: #{$color-rsi-purple};
+
+  --color-rsi-blue-300-rgb: #{$color-rsi-blue-300-rgb};
+  --color-rsi-aqua-100-rgb: #{$color-rsi-aqua-100-rgb};
+  --color-rsi-space-blue-alternative-100-rgb: #{$color-rsi-space-blue-alternative-100-rgb};
+  --color-rsi-space-blue-100-rgb: #{$color-rsi-space-blue-100-rgb};
+  --color-rsi-space-blue-200-rgb: #{$color-rsi-space-blue-200-rgb};
+  --color-rsi-space-blue-300-rgb: #{$color-rsi-space-blue-300-rgb};
+  --color-rsi-space-blue-400-rgb: #{$color-rsi-space-blue-400-rgb};
+  --color-rsi-space-blue-500-rgb: #{$color-rsi-space-blue-500-rgb};
+  --color-rsi-space-blue-600-rgb: #{$color-rsi-space-blue-600-rgb};
+  --color-rsi-space-blue-700-rgb: #{$color-rsi-space-blue-700-rgb};
+  --color-rsi-space-blue-800-rgb: #{$color-rsi-space-blue-800-rgb};
+  --color-rsi-space-blue-900-rgb: #{$color-rsi-space-blue-900-rgb};
+  --color-rsi-monochrome-50-rgb: #{$color-rsi-monochrome-50-rgb};
+  --color-rsi-monochrome-100-rgb: #{$color-rsi-monochrome-100-rgb};
+  --color-rsi-monochrome-300-rgb: #{$color-rsi-monochrome-300-rgb};
+  --color-rsi-monochrome-400-rgb: #{$color-rsi-monochrome-400-rgb};
+  --color-rsi-monochrome-800-rgb: #{$color-rsi-monochrome-800-rgb};
+  --color-rsi-monochrome-900-rgb: #{$color-rsi-monochrome-900-rgb};
+  --color-rsi-monochrome-alternative-400-rgb: #{$color-rsi-monochrome-alternative-400-rgb};
+  --color-rsi-monochrome-alternative-100-rgb: #{$color-rsi-monochrome-alternative-100-rgb};
+  --color-rsi-red-light-rgb: #{$color-rsi-red-light-rgb};
+  --color-rsi-orange-dark-rgb: #{$color-rsi-orange-dark-rgb};
+  --color-rsi-orange-light-rgb: #{$color-rsi-orange-light-rgb};
+  --color-rsi-yellow-rgb: #{$color-rsi-yellow-rgb};
+  --color-rsi-green-rgb: #{$color-rsi-green-rgb};
+  --color-rsi-purple-rgb: #{$color-rsi-purple-rgb};
+
+  /* Star Citizen colors */
+
+  --color-star-citizen-asop-yellow-light: #{$color-star-citizen-asop-yellow-light};
+  --color-star-citizen-asop-yellow-medium: #{$color-star-citizen-asop-yellow-medium};
+
+  /* Colors by function */
+
+  --color-primary: #{$color-primary};
+  --color-primary-alternative: #{$color-primary-alternative};
+  --color-secondary: #{$color-secondary};
+  --color-secondary-alternative: #{$color-secondary-alternative};
+  --color-accent: #{$color-accent};
+
+  --color-warning: #{$color-warning};
+  --color-success: #{$color-success};
+
+  --color-dark: #{$color-dark};
+  --color-darker: #{$color-darker};
+  --color-light: #{$color-light};
+  --color-lighter: #{$color-lighter};
+
+  --color-text-dark: #{$color-text-dark};
+  --color-text-light: #{$color-text-light};
+}

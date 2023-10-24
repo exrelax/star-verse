@@ -1,0 +1,35 @@
+body {
+  font-family: $font-sans;
+  font-size: $body-font-size-px;
+  color: var(--color-text-light);
+}
+
+h1 {
+  font-size: var(--h1-font-size-pc);
+  line-height: var(--h1-line-height-scale);
+}
+
+h2 {
+  font-size: var(--h2-font-size-pc);
+  line-height: var(--h2-line-height-scale);
+}
+
+h3 {
+  font-size: var(--h3-font-size-pc);
+  line-height: var(--h3-line-height-scale);
+}
+
+h4 {
+  font-size: var(--h4-font-size-pc);
+  line-height: var(--h4-line-height-scale);
+}
+
+h5 {
+  font-size: var(--h5-font-size-pc);
+  line-height: var(--h5-line-height-scale);
+}
+
+h6 {
+  font-size: var(--h6-font-size-pc);
+  line-height: var(--h6-line-height-scale);
+}

@@ -1,0 +1,16 @@
+@media only screen {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .page-wrapper {
+    max-width: container-width('lg');
+    min-width: container-width('sm');
+    margin: 0 auto;
+  }
+
+  .page {
+    padding: 0 1rem;
+  }
+}

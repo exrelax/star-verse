@@ -1,0 +1,91 @@
+@use 'sass:math';
+
+$font-sans: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, oxygen, ubuntu, helvetica, arial, sans-serif,
+'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+$font-serif: 'PT Serif', georgia, 'Times New Roman', times, serif;
+$font-monospace: consolas, 'Lucida Console', 'Andale Mono', 'Bitstream Vera Sans Mono', 'Courier New', courier;
+$font-special-chars: 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+$font-futuristic: Audiowide, #{$font-sans};
+$font-display: Karla, #{$font-sans};
+
+$browser-font-size: 16;
+$body-font-size: 16;
+$std-line-height: 26;
+
+$h1-font-size: 48;
+$h2-font-size: 36;
+$h3-font-size: 21;
+$h4-font-size: 21;
+$h5-font-size: 18;
+$h6-font-size: 15;
+$text-big-font-size: 18;
+$text-small-font-size: 14;
+$footer-font-size: 14;
+
+$browser-font-size-px: $browser-font-size * 1px;
+$body-font-size-px: $body-font-size * 1px;
+$std-line-height-px: $std-line-height * 1px;
+
+$h1-font-size-px: $h1-font-size * 1px;
+$h2-font-size-px: $h2-font-size * 1px;
+$h3-font-size-px: $h3-font-size * 1px;
+$h4-font-size-px: $h4-font-size * 1px;
+$h5-font-size-px: $h5-font-size * 1px;
+$h6-font-size-px: $h6-font-size * 1px;
+$text-big-font-size-px: $text-big-font-size * 1px;
+$text-small-font-size-px: $text-small-font-size * 1px;
+$footer-font-size-px: $footer-font-size * 1px;
+
+/* ----- Line height without unit ----- */
+
+$h1-line-height: 52;
+$h2-line-height: 39;
+$h3-line-height: 30;
+$h4-line-height: 30;
+$h5-line-height: 28;
+$h6-line-height: $std-line-height;
+$text-big-line-height: $std-line-height;
+$text-small-line-height: $std-line-height;
+
+/* ----- scale factors (don't change - unless you know what you do) ----- */
+
+$text-font-scale: 1;
+$h1-font-scale: math.div($h1-font-size, $body-font-size);
+$h2-font-scale: math.div($h2-font-size, $body-font-size);
+$h3-font-scale: math.div($h3-font-size, $body-font-size);
+$h4-font-scale: math.div($h4-font-size, $body-font-size);
+$h5-font-scale: math.div($h5-font-size, $body-font-size);
+$h6-font-scale: math.div($h6-font-size, $body-font-size);
+$text-big-font-scale: math.div($text-big-font-size, $body-font-size);
+$text-small-font-scale: math.div($text-small-font-size, $body-font-size);
+$footer-font-scale: math.div($footer-font-size, $body-font-size);
+
+/* ----- Font size calculations ----- */
+
+$body-font-size-em: math.div($body-font-size, $browser-font-size) * 1em;
+$body-font-size-pc: math.div($body-font-size, $browser-font-size) * 100%;
+
+$h1-font-size-pc: $h1-font-scale * 100%;
+$h2-font-size-pc: $h2-font-scale * 100%;
+$h3-font-size-pc: $h3-font-scale * 100%;
+$h4-font-size-pc: $h4-font-scale * 100%;
+$h5-font-size-pc: $h5-font-scale * 100%;
+$h6-font-size-pc: $h6-font-scale * 100%;
+
+$text-big-font-size-pc: $text-big-font-scale * 100%;
+$text-small-font-size-pc: $text-small-font-scale * 100%;
+$footer-font-size-pc: $footer-font-scale * 100%;
+
+/* ----- line height (without unit) ----- */
+
+$std-line-height-scale: math.div($std-line-height, $body-font-size);
+
+$h1-line-height-scale: math.div($h1-line-height, $body-font-size);
+$h2-line-height-scale: math.div($h2-line-height, $body-font-size);
+$h3-line-height-scale: math.div($h3-line-height, $body-font-size);
+$h4-line-height-scale: math.div($h4-line-height, $body-font-size);
+$h5-line-height-scale: math.div($h5-line-height, $body-font-size);
+$h6-line-height-scale: math.div($h6-line-height, $body-font-size);
+
+$text-big-line-height-scale: math.div($text-big-line-height, $text-big-font-size);
+$text-small-line-height-scale: math.div($text-small-line-height, $text-small-font-size);

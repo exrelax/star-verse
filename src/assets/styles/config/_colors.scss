@@ -1,0 +1,220 @@
+/* Colors by color name */
+
+$color-white: #fff;
+$color-black: #000;
+$color-white-rgb: rgb(255 255 255 / 100%);
+$color-black-rgb: rgb(0 0 0 / 100%);
+
+$color-white-90-rgb: rgb(255 255 255 / 90%);
+$color-black-90-rgb: rgb(0 0 0 / 90%);
+
+$color-gray-100: #e6e6e6;
+$color-gray-200: #cccccc;
+$color-gray-300: #b3b3b3;
+$color-gray-400: #999999;
+$color-gray-500: #808080;
+$color-gray-600: #666666;
+$color-gray-700: #4d4d4d;
+$color-gray-800: #333333;
+$color-gray-850: #222222;
+$color-gray-900: #1a1a1a;/* Colors by color name */
+
+$color-white: #fff;
+$color-black: #000;
+$color-white-rgb: rgb(255 255 255 / 100%);
+$color-black-rgb: rgb(0 0 0 / 100%);
+
+$color-gray-100: #e6e6e6;
+$color-gray-200: #cccccc;
+$color-gray-300: #b3b3b3;
+$color-gray-400: #999999;
+$color-gray-500: #808080;
+$color-gray-600: #666666;
+$color-gray-700: #4d4d4d;
+$color-gray-800: #333333;
+$color-gray-850: #222222;
+$color-gray-900: #1a1a1a;
+$color-gray-1000: $color-black;
+$color-gray-100-rgb: rgb(230 230 230 / 100%);
+$color-gray-200-rgb: rgb(204 204 204 / 100%);
+$color-gray-300-rgb: rgb(179 179 179 / 100%);
+$color-gray-400-rgb: rgb(153 153 153 / 100%);
+$color-gray-500-rgb: rgb(128 128 128 / 100%);
+$color-gray-600-rgb: rgb(102 102 102 / 100%);
+$color-gray-700-rgb: rgb(77 77 77 / 100%);
+$color-gray-800-rgb: rgb(51 51 51 / 100%);
+$color-gray-850-rgb: rgb(34 34 34 / 100%);
+$color-gray-900-rgb: rgb(26 26 26 / 100%);
+$color-gray-1000-rgb: $color-black-rgb;
+
+/* RSI colors */
+
+$color-rsi-blue-300: #63a3e6;
+$color-rsi-aqua-100: #53c6c2;
+$color-rsi-space-blue-100: #00e7ff;
+$color-rsi-space-blue-200: #3fc9e1;
+$color-rsi-space-blue-300: #0c67a1;
+$color-rsi-space-blue-400: #3c6990;
+$color-rsi-space-blue-500: #0a456d;
+$color-rsi-space-blue-600: #26425a;
+$color-rsi-space-blue-700: #1e3548;
+$color-rsi-space-blue-800: #162735;
+$color-rsi-space-blue-900: #131a21;
+$color-rsi-space-blue-alternative-100: #43edf8;
+$color-rsi-monochrome-50: #e8ebed;
+$color-rsi-monochrome-100: #d2d7db;
+$color-rsi-monochrome-300: #a3acb2;
+$color-rsi-monochrome-400: #8d9aa0;
+$color-rsi-monochrome-800: #334752;
+$color-rsi-monochrome-900: #20323a;
+$color-rsi-monochrome-alternative-100: #cfdee8;
+$color-rsi-monochrome-alternative-400: #979c9f;
+$color-rsi-red-light: #ff6262;
+$color-rsi-orange-dark: #e05248;
+$color-rsi-orange-light: #e68c5d;
+$color-rsi-yellow: #e9b45b;
+$color-rsi-green: #5aa05c;
+$color-rsi-purple: #c197c8;
+
+$color-rsi-blue-300-rgb: rgb(99 163 230 / 100%);
+$color-rsi-aqua-100-rgb: rgb(83 198 194 / 100%);
+$color-rsi-space-blue-alternative-100-rgb: rgb(67 237 248 / 100%);
+$color-rsi-space-blue-100-rgb: rgb(0 231 255 / 100%);
+$color-rsi-space-blue-200-rgb: rgb(63 201 225 / 100%);
+$color-rsi-space-blue-300-rgb: rgb(12 103 161 / 100%);
+$color-rsi-space-blue-400-rgb: rgb(60 105 144 / 100%);
+$color-rsi-space-blue-500-rgb: rgb(10 69 109 / 100%);
+$color-rsi-space-blue-600-rgb: rgb(38 66 90 / 100%);
+$color-rsi-space-blue-700-rgb: rgb(30 53 72 / 100%);
+$color-rsi-space-blue-800-rgb: rgb(22 39 53 / 100%);
+$color-rsi-space-blue-900-rgb: rgb(19 26 33 / 100%);
+$color-rsi-monochrome-50-rgb:  rgb(232 235 237 / 100%);
+$color-rsi-monochrome-100-rgb: rgb(210 215 219 / 100%);
+$color-rsi-monochrome-300-rgb: rgb(163 172 178 / 100%);
+$color-rsi-monochrome-400-rgb: rgb(141 154 160 / 100%);
+$color-rsi-monochrome-800-rgb: rgb(51 71 82 / 100%);
+$color-rsi-monochrome-900-rgb: rgb(32 50 58 / 100%);
+$color-rsi-monochrome-alternative-400-rgb: rgb(151 156 159 / 100%);
+$color-rsi-monochrome-alternative-100-rgb: rgb(207 222 232 / 100%);
+$color-rsi-red-light-rgb: rgb(255 98 98 / 100%);
+$color-rsi-orange-dark-rgb: rgb(224 82 72 / 100%);
+$color-rsi-orange-light-rgb: rgb(230 140 93 / 100%);
+$color-rsi-yellow-rgb: rgb(233 180 91 / 100%);
+$color-rsi-green-rgb: rgb(90 160 92 / 100%);
+$color-rsi-purple-rgb: rgb(193 151 200 / 100%);
+
+/* Star Citizen colors */
+
+$color-star-citizen-asop-yellow-light: #d0be75;
+$color-star-citizen-asop-yellow-medium: #e1a133;
+
+/* Colors by function */
+
+$color-primary: $color-rsi-space-blue-500;
+$color-primary-alternative: $color-rsi-space-blue-300;
+$color-secondary: $color-rsi-red-light;
+$color-secondary-alternative: $color-rsi-orange-light;
+$color-accent: $color-rsi-purple;
+
+$color-warning: $color-rsi-red-light;
+$color-success: $color-rsi-green;
+
+$color-dark: $color-rsi-space-blue-800;
+$color-darker: $color-rsi-space-blue-900;
+$color-light: $color-rsi-space-blue-200;
+$color-lighter: $color-rsi-space-blue-100;
+
+$color-text-dark: $color-dark;
+$color-text-light: $color-light;
+$color-gray-1000: $color-black;
+$color-gray-100-rgb: rgb(230 230 230 / 100%);
+$color-gray-200-rgb: rgb(204 204 204 / 100%);
+$color-gray-300-rgb: rgb(179 179 179 / 100%);
+$color-gray-400-rgb: rgb(153 153 153 / 100%);
+$color-gray-500-rgb: rgb(128 128 128 / 100%);
+$color-gray-600-rgb: rgb(102 102 102 / 100%);
+$color-gray-700-rgb: rgb(77 77 77 / 100%);
+$color-gray-800-rgb: rgb(51 51 51 / 100%);
+$color-gray-850-rgb: rgb(34 34 34 / 100%);
+$color-gray-900-rgb: rgb(26 26 26 / 100%);
+$color-gray-1000-rgb: $color-black-rgb;
+
+/* RSI colors */
+
+$color-rsi-blue-300: #63a3e6;
+$color-rsi-aqua-100: #53c6c2;
+$color-rsi-space-blue-100: #00e7ff;
+$color-rsi-space-blue-200: #3fc9e1;
+$color-rsi-space-blue-300: #0c67a1;
+$color-rsi-space-blue-400: #3c6990;
+$color-rsi-space-blue-500: #0a456d;
+$color-rsi-space-blue-600: #26425a;
+$color-rsi-space-blue-700: #1e3548;
+$color-rsi-space-blue-800: #162735;
+$color-rsi-space-blue-900: #131a21;
+$color-rsi-space-blue-alternative-100: #43edf8;
+$color-rsi-monochrome-50: #e8ebed;
+$color-rsi-monochrome-100: #d2d7db;
+$color-rsi-monochrome-300: #a3acb2;
+$color-rsi-monochrome-400: #8d9aa0;
+$color-rsi-monochrome-800: #334752;
+$color-rsi-monochrome-900: #20323a;
+$color-rsi-monochrome-alternative-100: #cfdee8;
+$color-rsi-monochrome-alternative-400: #979c9f;
+$color-rsi-red-light: #ff6262;
+$color-rsi-orange-dark: #e05248;
+$color-rsi-orange-light: #e68c5d;
+$color-rsi-yellow: #e9b45b;
+$color-rsi-green: #5aa05c;
+$color-rsi-purple: #c197c8;
+
+$color-rsi-blue-300-rgb: rgb(99 163 230 / 100%);
+$color-rsi-aqua-100-rgb: rgb(83 198 194 / 100%);
+$color-rsi-space-blue-alternative-100-rgb: rgb(67 237 248 / 100%);
+$color-rsi-space-blue-100-rgb: rgb(0 231 255 / 100%);
+$color-rsi-space-blue-200-rgb: rgb(63 201 225 / 100%);
+$color-rsi-space-blue-300-rgb: rgb(12 103 161 / 100%);
+$color-rsi-space-blue-400-rgb: rgb(60 105 144 / 100%);
+$color-rsi-space-blue-500-rgb: rgb(10 69 109 / 100%);
+$color-rsi-space-blue-600-rgb: rgb(38 66 90 / 100%);
+$color-rsi-space-blue-700-rgb: rgb(30 53 72 / 100%);
+$color-rsi-space-blue-800-rgb: rgb(22 39 53 / 100%);
+$color-rsi-space-blue-900-rgb: rgb(19 26 33 / 100%);
+$color-rsi-monochrome-50-rgb:  rgb(232 235 237 / 100%);
+$color-rsi-monochrome-100-rgb: rgb(210 215 219 / 100%);
+$color-rsi-monochrome-300-rgb: rgb(163 172 178 / 100%);
+$color-rsi-monochrome-400-rgb: rgb(141 154 160 / 100%);
+$color-rsi-monochrome-800-rgb: rgb(51 71 82 / 100%);
+$color-rsi-monochrome-900-rgb: rgb(32 50 58 / 100%);
+$color-rsi-monochrome-alternative-400-rgb: rgb(151 156 159 / 100%);
+$color-rsi-monochrome-alternative-100-rgb: rgb(207 222 232 / 100%);
+$color-rsi-red-light-rgb: rgb(255 98 98 / 100%);
+$color-rsi-orange-dark-rgb: rgb(224 82 72 / 100%);
+$color-rsi-orange-light-rgb: rgb(230 140 93 / 100%);
+$color-rsi-yellow-rgb: rgb(233 180 91 / 100%);
+$color-rsi-green-rgb: rgb(90 160 92 / 100%);
+$color-rsi-purple-rgb: rgb(193 151 200 / 100%);
+
+/* Star Citizen colors */
+
+$color-star-citizen-asop-yellow-light: #d0be75;
+$color-star-citizen-asop-yellow-medium: #e1a133;
+
+/* Colors by function */
+
+$color-primary: $color-rsi-space-blue-500;
+$color-primary-alternative: $color-rsi-space-blue-300;
+$color-secondary: $color-rsi-red-light;
+$color-secondary-alternative: $color-rsi-orange-light;
+$color-accent: $color-rsi-purple;
+
+$color-warning: $color-rsi-red-light;
+$color-success: $color-rsi-green;
+
+$color-dark: $color-rsi-space-blue-800;
+$color-darker: $color-rsi-space-blue-900;
+$color-light: $color-rsi-space-blue-200;
+$color-lighter: $color-rsi-space-blue-100;
+
+$color-text-dark: $color-dark;
+$color-text-light: $color-light;
